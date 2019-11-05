@@ -1,8 +1,0 @@
-My program starts off by hashing each of the words contained in the dictionary and storing them in a StringTable, which is a hash table that contains the alphabatically sorted strings and their corresponding hash values. That way I can easily look up any string almost instantly by passing the requested value into the tables hash function and then proceed to get all results.
-	
-In terms of finding the multi-word algorithims, I had to spend a lot of time trying to wrap my head around, what I eventually found out to be an algorithim for calculating the cartesian product of n sets. The multi-word anagram code is not pretty, and is highly inefficent most likely. If I had managed my time better I would have worked on fixing the fact that I print on the fly, which means duplicates will arise if there are any repeatig characters 
-	i.e in icecream
-	
-		Since i treat both e's as seperate characters the phrase me ice car will be generated and printed about 8 times, which is 7 times to many. 
-		
-I could have also cleaned up my code by creating custom data structures to hold various properties of the anagrams, instead of smashing everything inside my AnagramDecoder class, besides 
